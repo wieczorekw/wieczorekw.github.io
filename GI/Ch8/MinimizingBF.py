@@ -7,16 +7,16 @@ from operator import countOf
 
 def synthesize(S_plus):
   V = dict()
-  P = set() 
+  P = set()
   T = {"0", "1"}
   idx = [0]
   initialG(frozenset(S_plus), V, P, T, idx)
   return eliminateUnitProductions(P)
-  
+
 def i2str(i):
   """Makes the string representation of an implicant
-  Input: An implicant i is represented as a tuple of integers from 
-  the set {0, 1, 3}.  The three means that there is no appropriate 
+  Input: An implicant i is represented as a tuple of integers from
+  the set {0, 1, 3}.  The three means that there is no appropriate
   variable in a product, for example (1, 3, 0, 1) = A C' D.
   Output: a string (for example: A B' C D')"""
   sym = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -25,7 +25,7 @@ def i2str(i):
     if v != 3:
       lst.append(sym[pos] + ("'" if v == 0 else ""))
   return " ".join(lst)
-  
+
 def allSentences(grammar, length):
   """Generates all sentential forms of a certain length
   that can be derived in a given grammar
@@ -84,5 +84,6 @@ X = {'0000110', '0000100', '0001100', '0001110', '0100000', '0100010', '0100100'
 '0110001', '0110011', '0110101', '0110111', '0111001', '0111011', '0111101', '0111111', \
 '1000101', '1000111', '1001101', '1001111', '1010101', '1010111', '1011101', '1011111'}
 g = synthesize(X)
+print g
 f = cfg2bf(g, 7)
 print "F =", f

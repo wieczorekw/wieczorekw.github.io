@@ -2,7 +2,7 @@ from peg import *
 from operator import or_
 from functools import reduce
 
-term = dict((chr(i), Terminal(chr(i))) for i in range(ord('A'), ord('Z') + 1))
+term = dict((chr(i), Terminal(chr(i))) for i in range(ord('a'), ord('z') + 1))
 
 def left_quotient(a, W):
     result = set()
@@ -25,5 +25,5 @@ def induce(X, Y):
     if exps == []:
         return ~reduce(or_, (term[a] for a in aY))
     if '' in X:
-        exps.append(epsilon)
+        exps.append(~reduce(or_, (term[a] for a in aY)) >> epsilon)
     return reduce(or_, exps)

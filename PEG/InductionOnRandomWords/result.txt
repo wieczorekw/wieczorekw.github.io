@@ -1,0 +1,40 @@
+File: randomdata_2_10_10_1_10.txt
+PEG length: 82
+Characters in file: 132
+
+File: randomdata_2_100_100_2_20.txt
+PEG length: 710
+Characters in file: 2604
+
+File: randomdata_4_500_500_3_30.txt
+PEG length: 2100
+Characters in file: 17597
+
+File: randomdata_4_1000_1000_4_40.txt
+PEG length: 3880
+Characters in file: 46580
+
+File: randomdata_8_5000_5000_5_50.txt
+PEG length: 14712
+Characters in file: 285267
+
+File: randomdata_8_6000_6000_6_60.txt
+PEG length: 17920
+Characters in file: 408946
+
+File: randomdata_16_7000_7000_7_70.txt
+PEG length: 19894
+Characters in file: 554199
+
+File: randomdata_16_8000_8000_8_80.txt
+PEG length: 22727
+Characters in file: 722059
+
+File: randomdata_32_9000_9000_9_90.txt
+PEG length: 21914
+Characters in file: 910092
+
+File: randomdata_32_10000_10000_10_100.txt
+PEG length: 24161
+Characters in file: 1116406
+

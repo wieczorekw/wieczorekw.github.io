@@ -5,9 +5,44 @@ import sys
 
 sys.setrecursionlimit(2000)
 infinity = float('infinity')
-Sigma = {'a', 'b', 'c', 'd'}  # 'v', '@' not in Sigma
+Sigma = {'0', '1'}  # 'v', '@' not in Sigma
 Omega = '*' + '+'*(len(Sigma) - 1) + "".join(Sigma)
 random.seed()
+
+def alphabet(S):
+    """Finds all letters in S
+    Input: a set of strings: S
+    Output: the alphabet of S"""
+    result = set()
+    for s in S:
+        for a in s:
+            result.add(a)
+    return result
+
+def prefixes(S):
+    """Finds all prefixes in S
+    Input: a set of strings: S
+    Output: the set of all prefixes of S"""
+    result = set()
+    for s in S:
+        for i in range(len(s) + 1):
+            result.add(s[:i])
+    return result
+
+def derivative(c, S):  # for a charecter and a set
+    result = set()
+    for s in S - {''}:
+        if s[0] == c:
+            result.add(s[1:])
+    return result
+
+def wordDerivative(w, S):  # for a word and a set
+    result = set()
+    n = len(w)
+    for s in S:
+        if s.startswith(w):
+            result.add(s[n:])
+    return result
 
 def alphabeticWidth(e):
     counter = 0
@@ -81,11 +116,13 @@ def sequentialBB(S_plus, S_minus):
     min_width = infinity
     current_best = None
     while q:
-        _, u = heappop(q)
+        b, u = heappop(q)
+        if b >= min_width:
+            break
         # print(u)
         for e in children(u):
             if alphabeticWidth(e) >= min_width:
-                break
+                continue
             z_e = z(e, S_plus, S_minus)
             if z_e < min_width:
                 if "v" not in e:

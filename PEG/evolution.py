@@ -79,7 +79,7 @@ class Evolution:
             counter += 1.0 if ind.consume(word) else 0.0
         
         for word in self.Y:
-            counter += 1.0 if not ind.consume(word) else 0.0
+            counter += 1.0 if ind.consume(word) is None else 0.0
 
         return counter / self.WordSetSize
 

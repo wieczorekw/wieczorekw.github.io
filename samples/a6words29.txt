@@ -1,0 +1,128 @@
+127 6
+1 28 c d d a f a f a f a f c d c d d a f a f a f a f f a d a
+1 30 b b b c d c d d a f a f a f a f a f f d f d f f d f d f d f
+1 31 c d c d c d c d d c d c d d a f a f a f a f d a a f a f a f f
+1 30 d a f a f a f a f c d c d c d d a f d c d d a f a f a f a f
+1 19 b b d d d f d f d f a f f d f d f d f
+1 40 b c d c d c d d c d c d d b a f a f f d f d f d f d f a f a f f d f d f d a d d
+1 11 b b b b a f a f f d f
+1 28 c d d b c d c d c d d a f a f a f a f f d f d f d f d f
+1 27 c d c d d a f a f b c d c d d b a d a d a a a f f d f
+1 26 b d a f d d d a a f a f f d f d f d f d f f d f d f
+1 7 b b d a f a f
+1 17 b c d c d d a f c d d a f a f a f
+1 8 b b d a f a f f
+1 31 c d c d c d d a f a f a f a f b c d c d c d d a f a f a f a f
+1 3 c d d
+1 32 c d c d d a f a f a f a f a f a f f a f a f f d f d f f d f d f
+1 9 b b b d d d d d a
+1 23 d a f a f a f a f b d a f f d f d f d f a f f
+1 36 b b b d a f a f a f a f a d a f a f f d f d f d f d f a f a f f d f d f
+1 10 f a f f d f d f d f
+1 9 c d c d c d d b b
+1 43 b c d c d c d d c d c d c d c d d a f a f a f f d f d f d f d f a f a f a f a f f d f
+1 18 b b b a f a f a f f d f d f d f d f
+0 17 c d c d c d d a f a f a f a f c d
+0 18 b c d c d c d c d d a f a f c d c d
+0 19 b c d c d c d c d d a f a f c d c d c
+0 18 c d c d c d d a f a f a f a f c d c
+0 17 b c d c d c d c d d a f a f c d c
+0 15 b c d c d d a f a f a f a f c
+0 6 d c d d c d
+0 9 b c d c d c d c d
+0 30 b c d c d d a f a f a f c d c d c d d a f a f a f a f c d c
+0 4 b b c d
+0 17 b c d c d c d c d d a f a f a f c
+0 24 c d c d c d c d d a f a f a f c d d a f a f c d
+0 16 b c d c d d a f a f a f c d c d
+0 9 b b c d d a f c d
+0 13 b c d c d d a f a f a f c
+0 12 c d c d c d c d d a f c
+0 17 d a f a f a f a f c d c d c d c d
+0 5 b c d c d
+0 33 b c d c d d a f a f a f c d c d c d d a f a f a f a f c d c d c d
+0 24 b d a f a f a f a f c d d a f a f a f c d c d c
+0 2 b c
+0 13 d a f a f a f a f c d c d
+0 11 b c d c d c d d c d c
+0 10 b b b c d c d c d c
+0 16 b c d c d d a f a f a f a f c d
+0 18 b c d c d d a f a f a f c d c d c d
+0 5 b b b c d
+0 7 b c d c d c d
+0 14 b c d c d d a f a f a f c d
+0 10 b b c d d a f c d c
+0 3 c d c
+0 14 c d c d c d c d d a f c d c
+0 19 b c d c d d a f a f a f a f c d c d c
+0 20 c d c d c d d a f a f a f a f c d c d c
+0 11 d a f a f a f a f c d
+0 8 b c d c d c d c
+0 23 d a f a f a f a f c d c d c d c d d a f c d c
+0 11 b d a f a f a f a f c
+0 7 c d c d c d c
+0 31 b c d c d d a f a f a f c d c d c d d a f a f a f a f c d c d
+0 8 b b c d d a f c
+0 6 b c d c d c
+0 10 d a f a f a f a f c
+0 19 c d c d c d d a f a f a f a f c d c d
+0 20 b c d c d d a f a f a f a f c d c d c d
+0 4 b b b c
+0 15 b c d c d c d c d d a f a f c
+0 3 d c d
+0 17 b c d c d d a f a f a f a f c d c
+0 9 b c d c d c d d c
+0 20 b c d c d c d c d d a f a f c d c d c d
+0 24 d a f a f a f a f c d c d c d c d d a f c d c d
+0 21 b c d c d d a f a f a f a f c d c d c d c
+0 14 d a f a f a f a f c d c d c
+0 29 d a f a f a f a f c d c d c d c d d a f c d c d d a f c d
+0 12 d a f a f a f a f c d c
+0 13 c d c d c d c d d a f c d
+0 16 c d c d c d d a f a f a f a f c
+0 21 c d c d c d d a f a f a f a f c d c d c d
+0 2 c d
+0 5 d c d d c
+0 15 b c d c d d a f a f a f c d c
+0 4 c d c d
+0 19 b c d c d c d c d d a f a f a f c d c
+0 17 c d c d c d c d d a f a f a f c d
+0 32 b c d c d d a f a f a f c d c d c d d a f a f a f a f c d c d c
+0 21 b d a f a f a f a f c d d a f a f a f c d
+0 12 b c d c d c d d c d c d
+0 8 b b b c d c d c
+0 11 b b b c d c d c d c d
+0 20 b c d c d c d c d d a f a f a f c d c d
+0 28 d a f a f a f a f c d c d c d c d d a f c d c d d a f c
+0 15 c d c d c d c d d a f c d c d
+0 4 b c d c
+0 16 b c d c d c d c d d a f a f c d
+0 25 b d a f a f a f a f c d d a f a f a f c d c d c d
+0 10 b c d c d c d d c d
+0 9 b b b c d c d c d
+0 6 c d c d c d
+0 12 b d a f a f a f a f c d
+0 22 d a f a f a f a f c d c d c d c d d a f c d
+0 22 b c d c d d a f a f a f a f c d c d c d c d
+0 5 c d c d c
+0 18 b c d c d c d c d d a f a f a f c d
+0 20 b d a f a f a f a f c d d a f a f a f c
+0 28 b c d c d d a f a f a f c d c d c d d a f a f a f a f c
+0 18 b c d c d d a f a f a f a f c d c d
+0 29 b c d c d d a f a f a f c d c d c d d a f a f a f a f c d
+0 1 c
+0 8 c d c d c d c d
+0 22 b d a f a f a f a f c d d a f a f a f c d c
+0 21 d a f a f a f a f c d c d c d c d d a f c
+0 23 c d c d c d c d d a f a f a f c d d a f a f c
+0 17 b c d c d d a f a f a f c d c d c
+0 6 b b b c d c
+0 11 b b c d d a f c d c d
+0 15 d a f a f a f a f c d c d c d
+0 16 c d c d c d c d d a f a f a f c
+0 3 b b c
+0 3 b c d
+0 23 b d a f a f a f a f c d d a f a f a f c d c d
+0 7 b b b c d c d
+0 2 d c
+0 16 d a f a f a f a f c d c d c d c

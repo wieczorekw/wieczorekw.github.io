@@ -1,0 +1,28 @@
+27 2
+1 0 
+1 29 b a a b b a a a b a b b b b b b b b b b b b b b b b a a b
+1 45 a b b b b b b b b b b b b b b b b b a a b b b b b a a a b b b b a a a a a b b b b b b b b
+1 17 b b b b b b b b b a a b b b b b b
+1 17 a a a b b b b b b b a b a a b b a
+1 37 b b b b b b b a a a a b b b b b b b b b b b b b b b b b a b b a a a a b b
+1 13 a b a b b a a a a b a b b
+1 18 a a a a a b b b b b b b b b b b b b
+1 23 a a a a b b b b b b b b b b b b a b b b b b b
+1 40 a a a b a a a a b b a a a b b a b b b b b b b b b b b a b a b b b b a b b b b a
+1 28 a a b b b b b b b b b b b b b b b b b b b a a a a a b b
+1 32 b a b b a a a b b a a a b b b b b b a a b b b b b b b b b b b b
+1 27 a a b b b b b a a a b b b a a b b b b b a b b b b b b
+1 22 b a b b b b b b b b a b a b b a b a b b b b
+1 28 a a a b b a a a a a b b a b b b b b b b b b b b b b b b
+1 15 b b a b b b b b a b a b b b a
+1 5 a a b b b
+1 14 b a a b b a b b b b a a b b
+0 1 b
+0 1 a
+0 5 a a a a a
+0 2 b a
+0 3 a a a
+0 2 a a
+0 4 a a a a
+0 6 a a a a a a
+0 3 b a a

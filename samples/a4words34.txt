@@ -1,0 +1,482 @@
+481 4
+1 0 
+1 10 c b a d a d c b a d
+1 26 b c c c c c c c b a d a d d c c c b a d a d a d a d
+1 16 a d c b a c b c b d a d a d a d
+1 31 c c c c c c b d a d a d c c c d d a d a d a d a d c b c b a d
+1 13 d c d a d a d d a b d c b
+1 41 c c c c c b a d a d a c b a a a d a d c b a a a a d c b d a d a a a a d c c b a d
+1 35 c c c c c c b a d a d a d a d d d c c c b d a d a d a d a d d a b d d
+1 25 a d a c b a a d a d c b a d c b a c b a d a d a d
+1 22 c c c c d a d c c c d c c b a d a d a d a d
+1 32 d b d a d a d d c c c c c d a d d d b c b a d a d d a b d d a d
+1 19 a d d a d a d a d d a b d c b a d a d
+1 27 c c c c c d b d a d a d d a b d c b a d b c b a d a d
+1 36 d a b d c b a d a d a d a d d a d a d a d c b a d a d d a b d d a d a d
+1 17 c d d a d a d a d a d c c c d a d
+1 38 d a d a d d a d c b a d c b c b a d c b c b a d c b d a b d c b a d a d a d
+1 18 b d a d a d a d a d d a b d c b a d
+1 35 d d c c d d a b d c b a d d b c d a d a d a d a c b c b a c b a d a d
+1 29 c c c c d a d c b a d a d a d d a d a d a c b a d a d a d
+1 50 a d a a c b a d a c b a d d a d a d a d a d c c c c c c c c c d a d a d a d a d d d a d a d a d a d
+1 44 a d a a a c b a d c b a a d a c b a d c b a a c b a d a d d c c c c b d a b d d a d a d
+1 39 d c c c b c b a d a d b d a d a d a d a d a d a c b c b a d c b d a d a d a d
+1 32 a d c b c b a d c b c b c b c b a d a c b c b c b c c c c c b d
+1 41 c c c c c d a d a d a d c b a d c b a c b a d a a a d c b c b a c b a d d a d a d
+0 55 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a d b c b a d a d a d a
+0 10 d a d a d a d a d a
+0 11 a d a a d a c b a d a
+0 43 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c c d c c
+0 15 a d c b a c b c b d a d a d a
+0 23 d c c c c d c c c c b a d c b c b c b a a d c
+0 42 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c c b c b a d a d a
+0 11 c b a d a d a d d a b
+0 25 a d c b d c b a d a d a c b a d a c b d a d d a b
+0 13 d c c c c c c c c b a d a
+0 33 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d
+0 11 c b a d a d d a b d c
+0 8 d a b d d c b a
+0 11 b d c c b d a d a d a
+0 37 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a a
+0 13 a d c b d c b a d a d a c
+0 22 a d c b c b c b a d c b c b a a d c b c b c
+0 16 b d c c b d a d a d a d d a b d
+0 5 b b c c c
+0 11 c b a d a d a d a d c
+0 12 c b a d a d a d d a b d
+0 10 b d d a d a d a d a
+0 44 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c c d c c c
+0 12 c b a d a d a d a d c c
+0 13 d a b d d a d d a d a d a
+0 43 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c
+0 36 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a
+0 6 a d c b d c
+0 32 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b
+0 17 a d d a d c c b b d a d a d d a b
+0 26 d a d a d a d a d a d c b c b a d a d a a a c b d a
+0 28 d a b d d a d a d a d a d c d d d d a b d c b a d a d a
+0 13 c b a d a d a d d a b d c
+0 31 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a
+0 33 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c
+0 15 b d d a d a d a d a d d a d b
+0 27 d c c c c d c c c c b a d c b c b c b a a d c b c b a
+0 17 d a b d d a d a d c c d a d a d a
+0 11 b d a d a d b b c d a
+0 34 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a
+0 11 c b c b a d a d a d a
+0 17 a d c b c b a a d a c b a d c b a
+0 20 b b c c c b a d a d d a b d d a d a d a
+0 10 d c c c c d c c c c
+0 19 a d c b a c b c b d a d a d a d d a b
+0 25 d a b d d a d a d c c d a d a d a d a d d a b d c
+0 5 d c c c c
+0 15 a d c b a a d c b a a a a d a
+0 22 d c c c c c c c c b a d a d a d a d d a b d
+0 4 d d d c
+0 32 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a
+0 15 c b a d a d a d d a b d c b a
+0 23 b d d a d a d a d a d d a d b c c c c c c b c
+0 15 b d c c b d a d a d a d d a b
+0 9 a d c b a d c b a
+0 10 a d c b c b a a d a
+0 11 a d c b a d c b a d a
+0 12 d a b d d c b a d a d a
+0 13 b b c c c b a d a d d a b
+0 53 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a d b c b a d a d a
+0 25 a d a a d a c b a d a c b c b c b a d d c b a d a
+0 8 a d c b c b a a
+0 22 a d c b c b a a d a c b a d c b a a d a d a
+0 8 c b a d a d d a
+0 39 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c
+0 57 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c c c b d d a d a d b d a
+0 16 b d d a d a d a d a d d a d b c
+0 48 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c c d c c c b a d a
+0 4 d a d a
+0 21 d c c c c d c c c c b a d c b c b c b a a
+0 2 d c
+0 26 a d c b c b a a a d c b a c b a a d d c c c c c b a
+0 35 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a
+0 7 c b c b a d a
+0 7 d c c c c c c
+0 23 a d c b c b a a a d c b a c b a a d d c c c c
+0 4 d c c c
+0 28 a d c b c b a a a d c b a c b a a d d c c c c c b a d a
+0 34 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c
+0 13 a d c b a d c b a d a a a
+0 44 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b
+0 62 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a a
+0 14 a d a a d a c b a d a c b c
+0 24 a d c b c b c b a d c b c b a a d c b c b c b a
+0 15 d c c c c c c c c b a d a d a
+0 15 a d c b d c b a d a d a c b a
+0 20 a d c b c b c b a d c b c b a a d c b c
+0 18 c b a d a d a d c c d a d d b c b a
+0 20 a d c b c b a a d a c b a d c b a a d a
+0 7 b d c c b d a
+0 1 a
+0 11 d a b d d a d d a d a
+0 36 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c d c c c c
+0 23 d c c c c c c c c b a d a d a d a d d a b d c
+0 42 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a a c b a d c
+0 13 a d c b c b a a d a c b a
+0 31 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a
+0 3 b d c
+0 19 a d c b a a d c b a a a a d a a c b a
+0 16 c b a d a d a d a d c c d a d a
+0 11 a d d a d c c b b d a
+0 20 b d c c b d a d a d a d d a b d d a d a
+0 6 d a b d d c
+0 15 a d c b c b c b a d a d a a a
+0 41 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a
+0 55 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a
+0 38 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c d c c c c c c
+0 9 d c c c c d c c c
+0 28 a d c b d c b a d a d a c b a d a c b d a d d a b d d a
+0 23 d a b d d a d a d c c d a d a d a d a d d a b
+0 17 a d c b a a d c b a a a a d a a c
+0 12 c b a d a d a d c c d a
+0 16 d a d a d a d a d a d c b c b a
+0 40 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c c b c b a d a
+0 18 d a d a d a d a d a d c b c b a d a
+0 40 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c c
+0 29 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c
+0 27 b d d a d a d a d a d d a d b c c c c c c b c b a d a
+0 24 c b a d a d a d c c d a d d b c b a d a d a d a
+0 18 a d c b c b c b a d c b c b a a d c
+0 10 b d c c c c d d b c
+0 4 a d a a
+0 31 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c
+0 29 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a
+0 25 b d d a d a d a d a d d a d b c c c c c c b c b a
+0 45 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c
+0 20 c b a d a d a d c c d a d d b c b a d a
+0 8 d d d c c c c c
+0 53 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c c c b d d a d a
+0 14 b d c c b d a d a d a d d a
+0 16 d d d c c c c c d a d a d a d a
+0 46 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c c
+0 3 d a b
+0 45 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c
+0 13 d a b d d a d a d c c d a
+0 62 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a d d b d c b a d a d a d a
+0 9 c b a d a d d a b
+0 11 c c c c b d d d a d a
+0 21 a d c b c b a a a d c b a c b a a d d c c
+0 22 d a b d d a d a d a d a d c d d d d a b d c
+0 14 d a b d d a d a d a d a d c
+0 25 d a b d d a d a d a d a d c b a d a d a d a d d a
+0 54 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a d d b d c
+0 40 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a
+0 38 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a
+0 13 c c c c b d d d a d a d a
+0 16 a d c b a a d c b a a a a d a a
+0 14 d c c c c d c c c c b a d c
+0 8 d a d a d a d a
+0 29 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a
+0 18 b d d a d a d a d a d d a d b c c c
+0 38 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c c b c b a
+0 30 a d c b d c b a d a d a c b a d a c b d a d d a b d d a d a
+0 19 d a b d d a d a d a d a d c d d d d a
+0 23 a d a a d a c b a d a c b c b c b a d d c b a
+0 31 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c
+0 20 a d c b c b a a a d c b a c b a a d d c
+0 16 b d c c c c d d b c b a d a d a
+0 9 c b a d a d a d c
+0 8 d a b d d a d a
+0 14 b d c c c c d d b c b a d a
+0 21 c b a d a d a d d a b d c b a d a d a d a
+0 34 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c
+0 15 d a b d d a d a d c c d a d a
+0 47 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a
+0 16 a d c b c b a a a d c b a c b a
+0 19 d d d c c c c c d a d a d a d a d d c
+0 28 d c c c c d c c c c b a d c b c b c b a a d c b c b a a
+0 16 c b a d a d a d c c d a d d b c
+0 28 b d c c b d a d a d a d d a b d d a d a d a d a d a d a
+0 17 a d c b d c b a d a d a c b a d a
+0 4 c c c c
+0 5 a d c b a
+0 11 a d c b c b c b a d a
+0 3 d c c
+0 19 c b a d a d a d d a b d c b a d a d a
+0 10 c b a d a d a d d a
+0 37 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c
+0 24 a d c b a c b c b d a d a d a d d a b d d a d c
+0 12 a d c b a a d c b a a a
+0 20 a d c b c b c b a d a d a a a a a d d a
+0 20 b d d a d a d a d a d d a d b c c c c c
+0 7 d d d c c c c
+0 13 b d a d a d b b c d a d a
+0 37 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a
+0 9 a d d a d c c b b
+0 18 b b c c c b a d a d d a b d d a d a
+0 6 b d c c c c
+0 12 d a d a d a d a d a d c
+0 46 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c c d c c c b a
+0 9 d c c c c c c c c
+0 31 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a
+0 7 c b a d a d a
+0 11 a d c b a a d c b a a
+0 70 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a a d a d a d a d a
+0 17 a d c b c b c b a d a d a a a a a
+0 14 a d c b c b a a a d c b a c
+0 7 a d a a d a c
+0 33 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a
+0 9 b b c c c b a d a
+0 29 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a
+0 15 a d c b c b a a d a c b a d c
+0 42 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a
+0 22 b d c c b d a d a d a d d a b d d a d a d a
+0 9 c b c b a d a d a
+0 5 b d c c c
+0 27 a d a a d a c b a d a c b c b c b a d d c b a d a d a
+0 68 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a a d a d a d a
+0 15 c b a d a d a d c c d a d d b
+0 7 a d c b c b c
+0 8 d c c c c c c c
+0 3 a d c
+0 36 a d a a d a c b a d a c b c b c b a d d c b a d a d a d a d a d d a d a
+0 4 d a b d
+0 34 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a
+0 21 b d d a d a d a d a d d a d b c c c c c c
+0 12 a d c b d c b a d a d a
+0 40 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a a c b a
+0 20 d c c c c d c c c c b a d c b c b c b a
+0 27 d c c c c c c c c b a d a d a d a d d a b d c b a d a
+0 13 c b a d a d d a b d c b a
+0 17 d a b d d a d d a d a d a d b d a
+0 51 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a d b c b a d a
+0 31 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c
+0 15 b d a d a d b b c d a d a d a
+0 17 d c c c c c c c c b a d a d a d a
+0 49 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a d b c b a
+0 37 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c
+0 9 d a b d d a d d a
+0 20 a d d a d c c b b d a d a d d a b d d a
+0 9 b d c c b d a d a
+0 7 a d c b c b a
+0 12 d d d c c c c c d a d a
+0 31 d a b d d a d a d c c d a d a d a d a d d a b d c b a d a d a
+0 36 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c
+0 30 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c
+0 20 d a b d d a d a d a d a d c d d d d a b
+0 30 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c
+0 6 a d a a d a
+0 11 a d c b a d c b c b a
+0 19 b d d a d a d a d a d d a d b c c c c
+0 12 b d c c c c d d b c b a
+0 9 a d a a d a c b a
+0 24 a d c b c b a a a d c b a c b a a d d c c c c c
+0 35 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c d c c c
+0 52 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a d d b
+0 20 d c c c c c c c c b a d a d a d a d d a
+0 6 b d d a d a
+0 38 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a
+0 20 a d c b a d c b a d a a a d a c b c b a
+0 34 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c c
+0 5 c b c b a
+0 21 a d c b a a d c b a a a a d a a c b a d a
+0 14 a d c b c b c b a d a d a a
+0 39 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c
+0 13 a d c b c b c b a d c b c
+0 14 c b c b a d a d a d a d d b
+0 16 a d c b c b c b a d a d a a a a
+0 34 a d a a d a c b a d a c b c b c b a d d c b a d a d a d a d a d d a
+0 10 a d c b a a d c b a
+0 29 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c
+0 49 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a
+0 22 a d c b a c b c b d a d a d a d d a b d d a
+0 13 a d c b a a d c b a a a a
+0 38 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c
+0 47 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a d b c
+0 22 a d c b c b c b a d a d a a a a a d d a d a
+0 19 d a b d d a d a d c c d a d a d a d a
+0 44 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a
+0 40 a d a a d a c b a d a c b c b c b a d d c b a d a d a d a d a d d a d a d a d a
+0 16 d c c c c d c c c c b a d c b c
+0 14 d a b d d c b a d a d a d a
+0 4 a d d a
+0 1 b
+0 55 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c c c b d d a d a d b
+0 24 d a b d d a d a d c c d a d a d a d a d d a b d
+0 16 d a b d d a d a d a d a d c b a
+0 7 a d c b a d c
+0 45 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a
+0 1 c
+0 59 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c
+0 8 a d c b d c b a
+0 28 d c c c c c c c c b a d a d a d a d d a b d c b a d a a
+0 30 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c
+0 33 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a
+0 33 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c d c
+0 47 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c c c
+0 6 d c c c c c
+0 20 c b a d a d a d a d c c d a d a d a d b
+0 10 c b a d a d a d c c
+0 12 b b c c c b a d a d d a
+0 30 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a
+0 3 c c c
+0 7 a d d a d c c
+0 18 d a b d d a d a d a d a d c b a d a
+0 8 b d a d a d b b
+0 9 b d a d a d b b c
+0 64 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a a d a
+0 21 d a d a d a d a d a d c b c b a d a d a a
+0 58 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a d d b d c b a d a
+0 4 b d c c
+0 33 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a
+0 36 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c
+0 14 d a d a d a d a d a d c b c
+0 18 c b a d a d a d a d c c d a d a d a
+0 10 d d d c c c c c d a
+0 36 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c
+0 9 c c c c b d d d a
+0 52 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a
+0 36 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a
+0 12 d c c c c d c c c c b a
+0 29 a d a a d a c b a d a c b c b c b a d d c b a d a d a d a
+0 19 d a b d d a d d a d a d a d b d a d a
+0 17 c b a d a d a d d a b d c b a d a
+0 22 a d c b c b a a a d c b a c b a a d d c c c
+0 15 d a b d d a d d a d a d a d b
+0 21 d c c c c c c c c b a d a d a d a d d a b
+0 6 d d d c c c
+0 6 d a b d d a
+0 24 d a b d d a d a d a d a d c d d d d a b d c b a
+0 15 a d c b c b c b a d c b c b a
+0 18 b d c c c c d d b c b a d a d a d c
+0 6 a d c b a a
+0 10 d a b d d c b a d a
+0 33 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a
+0 26 c b a d a d a d c c d a d d b c b a d a d a d a d a
+0 41 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c
+0 16 a d c b a d c b a d a a a d a c
+0 6 a d d a d c
+0 23 d a d a d a d a d a d c b c b a d a d a a a c
+0 29 d a b d d a d a d c c d a d a d a d a d d a b d c b a d a
+0 43 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a
+0 7 b b c c c b a
+0 11 a d c b c b a a a d c
+0 13 a d d a d c c b b d a d a
+0 61 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a
+0 42 a d c b c b a a a d c b a c b a a d d c c c c c b a d a d d a b d d a d a d c c d c
+0 14 d d d c c c c c d a d a d a
+0 21 c b a d a d a d a d c c d a d a d a d b c
+0 10 d a b d d a d a d a
+0 48 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c
+0 16 a d d a d c c b b d a d a d d a
+0 9 a d c b c b a a a
+0 51 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a d b c c c b d d a
+0 3 c b a
+0 22 d a d a d a d a d a d c b c b a d a d a a a
+0 27 d a b d d a d a d c c d a d a d a d a d d a b d c b a
+0 25 d c c c c d c c c c b a d c b c b c b a a d c b c
+0 46 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a a c b a d c b a d a
+0 4 b b c c
+0 3 b b c
+0 15 a d c b a d c b a d a a a d a
+0 18 a d d a d c c b b d a d a d d a b d
+0 40 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a
+0 12 a d c b a d c b a d a a
+0 21 a d c b d c b a d a d a c b a d a c b d a
+0 26 a d c b d c b a d a d a c b a d a c b d a d d a b d
+0 72 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a a d a d a d a d a d a
+0 40 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c
+0 26 d a b d d a d a d a d a d c d d d d a b d c b a d a
+0 22 d a b d d a d a d c c d a d a d a d a d d a
+0 57 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a
+0 13 a d c b a c b c b d a d a
+0 20 d a b d d a d a d a d a d c b a d a d a
+0 8 a d c b a a d c
+0 7 d c c c c d c
+0 24 a d c b a d c b a d a a a d a c b c b a d a d a
+0 18 a d c b c b a a d a c b a d c b a a
+0 9 a d c b c b c b a
+0 14 b b c c c b a d a d d a b d
+0 3 c b c
+0 34 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c d c c
+0 22 a d c b a d c b a d a a a d a c b c b a d a
+0 16 a d a a d a c b a d a c b c b c
+0 13 b d d a d a d a d a d d a
+0 26 a d c b a c b c b d a d a d a d d a b d d a d c c c
+0 18 a d c b d c b a d a d a c b a d a c
+0 9 a d c b a d c b c
+0 6 d a d a d a
+0 4 b d d a
+0 38 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a a c
+0 11 a d c b a c b c b d a
+0 21 d a b d d a d a d a d a d c d d d d a b d
+0 11 a d c b c b a a d a c
+0 11 d c c c c c c c c b a
+0 14 c b a d a d a d a d c c d a
+0 2 c c
+0 44 c b a d a d a d c c d a d d b c b a d a d a d a d a d a a c b a d c b a a c b a d c b a
+0 5 b d a d a
+0 8 a d c b a c b c
+0 10 c b a d a d d a b d
+0 18 d c c c c d c c c c b a d c b c b c
+0 13 a d c b c b c b a d a d a
+0 39 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a
+0 38 a d a a d a c b a d a c b c b c b a d d c b a d a d a d a d a d d a d a d a
+0 25 a d c b a c b c b d a d a d a d d a b d d a d c c
+0 8 d c c c c d c c
+0 47 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a
+0 28 a d c b a c b c b d a d a d a d d a b d d a d c c c d a
+0 9 c b a d a d a d a
+0 17 b d d a d a d a d a d d a d b c c
+0 42 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a c b a c b c b a d a d a
+0 20 d a d a d a d a d a d c b c b a d a d a
+0 12 a d a a d a c b a d a c
+0 21 a d a a d a c b a d a c b c b c b a d d c
+0 30 d c c c c d c c c c b a d c b c b c b a a d c b c b a a d a
+0 35 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c
+0 56 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a d d b d c b a
+0 58 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a
+0 13 a d c b c b a a a d c b a
+0 7 b d a d a d b
+0 41 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a
+0 23 c b a d a d a d a d c c d a d a d a d b c b a
+0 36 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c c b c
+0 12 d a b d d a d a d a d a
+0 16 b b c c c b a d a d d a b d d a
+0 2 b b
+0 18 a d a a d a c b a d a c b c b c b a
+0 24 a d c b d c b a d a d a c b a d a c b d a d d a
+0 17 a d c b c b a a a d c b a c b a a
+0 2 d a
+0 18 a d c b a d c b a d a a a d a c b c
+0 20 a d c b a c b c b d a d a d a d d a b d
+0 10 d a b d d a d a d c
+0 11 a d c b c b c b a d c
+0 37 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c d c c c c c
+0 18 a d c b a c b c b d a d a d a d d a
+0 5 a d c b c
+0 53 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c
+0 15 c b a d a d d a b d c b a d a
+0 2 a d
+0 50 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a
+0 60 b d c c b d a d a d a d d a b d d a d a d a d a d a d a c b c b a a d c b a d a a a c b c b a d a d d b d c b a d a d a
+0 66 d c c c c c c c c b a d a d a d a d d a b d c b a d a a a a a d a a d a c b a d a d a d a d a c b a d a c b a d a a c b a a d a d a
+0 9 b d c c c c d d b
+0 10 a d c b d c b a d a
+0 24 b d c c b d a d a d a d d a b d d a d a d a d a
+0 15 c b c b a d a d a d a d d b c
+0 22 d a b d d a d a d a d a d c b a d a d a d a
+0 44 b d d a d a d a d a d d a d b c c c c c c b c b a d a d c c c b c c b c b a d a d a d a
+0 5 d d d c c
+0 31 a d a a d a c b a d a c b c b c b a d d c b a d a d a d a d a
+0 28 c b a d a d a d c c d a d d b c b a d a d a d a d a d a
+0 46 a d c b c b c b a d c b c b a a d c b c b c b a d d a d a d a d a d c c c c c c c b d a d b
+0 22 c b a d a d a d c c d a d d b c b a d a d a
+0 11 d a b d d a d a d c c
+0 18 b d c c b d a d a d a d d a b d d a
+0 8 b d d a d a d a
+0 31 d a b d d a d a d a d a d c d d d d a b d c b a d a d a d c c
+0 3 b d a
+0 27 a d c b c b c b a d c b c b a a d c b c b c b a d d a
+0 16 a d c b c b c b a d c b c b a a
+0 6 a d c b a c
+0 25 d c c c c c c c c b a d a d a d a d d a b d c b a
+0 26 b d c c b d a d a d a d d a b d d a d a d a d a d a
+0 5 c b a d a
+0 3 a d a

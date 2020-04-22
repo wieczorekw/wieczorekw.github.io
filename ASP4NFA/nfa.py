@@ -1,4 +1,4 @@
-from subprocess import Popen, PIPE
+import subprocess
 from pipetools import where
 from FAdo.fa import *
 import argparse
@@ -38,86 +38,54 @@ def all_proper_prefixes(S):
 
 def encode(X, Y, K, P, alphabet):
     lines = []
-    lines.append("num(0..{}).".format(K - 1))
-    lines.append("pref(lambda).")
+    lines.append("q(0..{}).".format(K - 1))
+    for a in alphabet:
+        lines.append(f"symbol({a}).")
+    lines.append("prefix(lambda).")
     for p in P:
-        lines.append("pref({}).".format(p))
-    lines += [ \
-    "x(P, N) :- pref(P), num(N), not not_x(P, N).", \
-    "not_x(P, N) :- pref(P), num(N), not x(P, N).", \
-    "has_num(P) :- pref(P), num(N), x(P, N).", \
-    ":- pref(P), not has_num(P).", \
-    "final(N) :- num(N), not not_final(N).", \
-    "not_final(N) :- num(N), not final(N)."]
-    for char in alphabet:
-        lines.append("f{}(Q, R) :- num(Q), num(R), not not_f{}(Q, R).".format(char, char))
-        lines.append("not_f{}(Q, R) :- num(Q), num(R), not f{}(Q, R).".format(char, char))
-    lines.append(":- not x(lambda, 0).")
-    for k in range(1, K):
-        lines.append(":- x(lambda, {}).".format(k))
-    ind = 0
-    for p in P | {''}:
-        for q in P:
-            if p == q[:-1]:
-                _p = "lambda" if p == '' else p
-                lines.append("x({}, R) :- num(Q), num(R), x({}, Q), f{}(Q, R).".format(q, _p, q[-1]))
-                for i in range(K):
-                    for j in range(K):
-                        ind += 1
-                        lines.append("c{} :- x({}, {}), f{}({}, {}).".format(ind, _p, j, q[-1], j, i))
-                    body = ":- x({}, {})".format(q, i)
-                    for m in range(ind - K + 1, ind + 1):
-                        body += ", not c{}".format(m)
-                    body += "."
-                    lines.append(body)
-    if '' in Y:
-        lines.append(":- final(0).")
-    for sm in Y - {''}:
-        lines.append(":- num(N), x({}, N), final(N).".format(sm))
-    if '' in X:
-        lines.append(":- not final(0).")
-    ind = 0
-    for sp in X - {''}:
-        for j in range(K):
-            ind += 1
-            lines.append("g{} :- x({}, {}), final({}).".format(ind, sp, j, j))
-        body = ":- "
-        for m in range(ind - K + 1, ind):
-            body += "not g{}, ".format(m)
-        body += "not g{}.".format(ind)
-        lines.append(body)
+        lines.append("prefix({}).".format(p))
+    for s in X:
+        lines.append(f"positive({s}).")
+    for s in Y:
+        lines.append(f"negative({s}).")
+    for p in P:
+        n = len(p)
+        if n >= 2:
+            pivot = n-1
+            b, c = p[:pivot], p[pivot:]
+            lines.append(f"join({b}, {c}, {p}).")
+        else:
+            lines.append(f"join(lambda, {p}, {p}).")
     return "\n".join(lines)
 
-def extract(line, K, alphabet):
+def extract(line, K):
     aut = NFA()
     for j in range(K):
         aut.addState()
     aut.addInitial(0)
-    for state in map(int, re.findall("(?<=\sfinal\()\d+", line)):
+    for state in map(int, re.findall("(?<=final\()\d+", line)):
         aut.addFinal(state)
-    for char in alphabet:
-        for (q, r) in map(eval, re.findall("(?<=\sf{})\(\d+,\d+\)".format(char), line)):
-            aut.addTransition(q, char, r)
+    for s in re.findall("(?<=delta)\(\d+,\w,\d+\)", line):
+        q, a, r = s[1:-1].split(',')
+        aut.addTransition(int(q), a, int(r))
     return aut
 
 def synthesize(X, Y, K):
     global param_t
     P = all_proper_prefixes(X | Y)
     alphabet = set(c for s in X | Y for c in s)
-    asp_code = encode(X, Y, K, P, alphabet)
-    with open("code.asp", "w") as text_file:
-        print(asp_code, file=text_file)
-    p1 = Popen(["gringo", "code.asp"], stdout=PIPE)
+    asp_facts = encode(X, Y, K, P, alphabet)
+    with open("facts.lp", "w") as text_file:
+        print(asp_facts, file=text_file)
     if param_t:
-        p2 = Popen(["clasp", "-t", "16"], stdin=p1.stdout, stdout=PIPE)
+        process = subprocess.run(['clingo', '-t', '16', 'nfa.lp'], stdout=subprocess.PIPE)
     else:
-        p2 = Popen(["clasp"], stdin=p1.stdout, stdout=PIPE)
-    p1.stdout.close()
-    text = p2.communicate()[0]
+        process = subprocess.run(['clingo', 'nfa.lp'], stdout=subprocess.PIPE)
+    text = process.stdout
     text = text.decode()
     aut = None
-    for line in text.splitlines(False) > where(r'^(pref|num)'):
-        aut = extract(line, K, alphabet)
+    for line in text.splitlines(False) > where(r'^(delta|final)'):
+        aut = extract(line, K)
         break
     return aut
 
@@ -150,13 +118,13 @@ while True:
     NSTATES += 1
 # a.deleteStates(set(range(len(a))) - a.usefulStates())
 printAut(a)
-print("Błędy dla pozytywnych:")
+print("Errors for positives:")
 for x in X:
     if not a.evalWordP(x):
         print(x if x != '' else "epsilon", end = ' ')
-print("\nBłędy dla negatywnych:")
+print("\nErrors for negatives:")
 for y in Y:
     if a.evalWordP(y):
         print(y if y != '' else "epsilon", end = ' ')
 print('')
-print("Pełny czas = %.2f s" % (time.time() - whole_time))
+print("Total time = %.2f s" % (time.time() - whole_time))

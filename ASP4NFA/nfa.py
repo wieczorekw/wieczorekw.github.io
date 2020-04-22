@@ -45,9 +45,15 @@ def encode(X, Y, K, P, alphabet):
     for p in P:
         lines.append("prefix({}).".format(p))
     for s in X:
-        lines.append(f"positive({s}).")
+        if s == "":
+            lines.append("positive(lambda).")
+        else:
+            lines.append(f"positive({s}).")
     for s in Y:
-        lines.append(f"negative({s}).")
+        if s == "":
+            lines.append("negative(lambda).")
+        else:
+            lines.append(f"negative({s}).")
     for p in P:
         n = len(p)
         if n >= 2:
